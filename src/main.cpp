@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <iomanip>
+#include <cstring>
 #include "AllZerosException.h"
 using namespace std;
 
@@ -24,9 +25,10 @@ int main() {
 			cout << endl;
 			cout << "Do you want to do another calculation? [Y/N]" << endl;
 			cin >> response;
+			response = toupper(response);
 			cout << endl;
 			system("cls");
-		} while (response != 'n' && 'N');
+		} while (response != 'N');
 	}
 	
 	catch (const AllZerosException& ex) {

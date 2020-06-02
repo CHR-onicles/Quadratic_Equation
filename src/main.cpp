@@ -5,6 +5,7 @@
 #include "AllZerosException.h"
 using namespace std;
 
+//prototypes
 void greeting();
 void check_discriminant(double a, double b, double c);
 
@@ -89,7 +90,7 @@ void check_discriminant(double a, double b, double c) {
 		cout << "Therefore x1 = x2 = " << x1x2 << endl;
 
 		if (floor(x1x2) == ceil(x1x2)) {
-			cout << resetiosflags(std::ios::fixed);
+			cout << resetiosflags(std::ios::fixed); //to remove the decimal points and digits that come after
 			cout << "This can also be written as: " << endl;
 			cout << "(x ";
 			if (x1x2 < 0) {

@@ -21,14 +21,17 @@ int main() {
 			cout << "Please enter values for coefficients: A,B,C separated by spaces: ";
 			double num1{}, num2{}, num3{};
 			cin >> num1 >> num2 >> num3;
-
-			check_discriminant(num1, num2, num3);
-			cout << endl;
-			cout << "Do you want to do another calculation? [Y/N]" << endl;
-			cin >> response;
-			response = toupper(response);
-			cout << endl;
-			system("cls");
+			//check to make sure inputs are numbers
+			//if (num1 >= 48 || num1 <= 57 || num2 >= 48 || num2 <= 57 || num3 >= 48 || num3 <= 57) {
+			//Math error exception takes care of this
+				check_discriminant(num1, num2, num3);
+				cout << endl;
+				cout << "Do you want to do another calculation? [Y/N]" << endl;
+				cin >> response;
+				response = toupper(response);
+				cout << endl;
+				system("cls");
+			
 		} while (response != 'N');
 	}
 	

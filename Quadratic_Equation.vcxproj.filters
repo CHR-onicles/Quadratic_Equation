@@ -27,4 +27,12 @@
   <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\quadratic_1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\quadratic_2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

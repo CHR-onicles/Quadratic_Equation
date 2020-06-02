@@ -27,6 +27,10 @@
   <ItemGroup>
     <None Include="README.md" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\quadratic_1.jpg" />
+    <Image Include="images\quadratic_2.jpg" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{A08897D2-74A8-4B91-8395-D440818C66B9}</ProjectGuid>

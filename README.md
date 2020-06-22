@@ -6,4 +6,4 @@ Program to check and tell roots of quadratic equations, from Computer Science Fi
 <img src ="images/quadratic_2.jpg" width = 700>
 
 ## POSSIBLE UPDATES:
-- user input validation
+- User input validation
